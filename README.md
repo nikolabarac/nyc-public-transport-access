@@ -14,17 +14,29 @@ The analysis starts by assessing accessibility to subway, carshare, e-scooter, a
 
 ![Neighborhood-Level Accessibility](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/data_exploration.PNG)
 
+![Neighborhood-Level Accessibility](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/subway_entrances.PNG)
+
+![Neighborhood-Level Accessibility](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/carshare_stations.PNG)
+
+![Neighborhood-Level Accessibility](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/e_scooter_stations.PNG)
+
+![Neighborhood-Level Accessibility](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/bikeshare_stations.PNG)
+
+![Neighborhood-Level Accessibility](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/sum_score.PNG)
+
 ### 2. **Hexagonal Grid for More Uniform Analysis**
 
 To gain a more granular understanding of accessibility, the neighborhoods were divided into uniform hexagons using the H3 package. This allows for better insight into which specific areas have good access to public transport and which do not.
 
-![Hexagonal Grid Analysis](data/hexagonal_analysis.png)
+![Hexagonal Grid Analysis](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/subway_hexa.PNG)
 
-### 3. **Metrics and Findings**
+![Hexagonal Grid Analysis](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/carshare_hexa.PNG)
 
-The final analysis sums the accessibility of all transportation modes within each hexagon and its 500-meter buffer zone. These metrics are then min-max scaled for comparison.
+![Hexagonal Grid Analysis](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/e_scooter_hexa.PNG)
 
-![Hexagonal Score Map](data/hexagonal_scores.png)
+![Hexagonal Grid Analysis](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/bikeshare_hexa.PNG)
+
+![Hexagonal Grid Analysis](https://github.com/nikolabarac/nyc-public-transport-access/blob/master/data/sum_score_hexa.PNG)
 
 ### Interactive Maps
 
